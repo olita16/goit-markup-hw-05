@@ -883,9 +883,9 @@ img {
   fill: var(--iris-btn-color);
 }
 
-.add-textarea {
+/* .add-textarea {
   margin-bottom: 16px;
-}
+} */
 
 .review-form-massage {
   width: 100%;
@@ -900,7 +900,7 @@ img {
   background-color: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
   transition: border-color var(--transition-animation);
-  color: rgba(46, 47, 66, 1);
+  color: rgba(46, 47, 66, 0.4);
 }
 
 .review-form-massage:focus {
@@ -980,12 +980,13 @@ img {
   height: 56px;
   padding: auto;
   min-width: 169px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   border: none;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
   background-color: var(--iris-btn-color);
   color: var(--white-background-color);
   border-radius: 4px;
