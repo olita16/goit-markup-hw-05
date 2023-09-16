@@ -579,7 +579,6 @@ img {
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -900,7 +899,7 @@ img {
   background-color: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
   transition: border-color var(--transition-animation);
-  color: rgba(46, 47, 66, 0.4);
+  color: var(--navy-blue-modal-color);
 }
 
 .review-form-massage:focus {
